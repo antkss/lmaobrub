@@ -1,0 +1,30 @@
+2022-08-02 10:23:49,298 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud_shell']
+2022-08-02 10:23:49,311 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud-shell', 'ssh']
+2022-08-02 10:23:49,807 DEBUG    root            Running [gcloud.cloud-shell.ssh] with arguments: [--authorize-session: "True"]
+2022-08-02 10:23:49,817 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2022-08-02 10:23:49,820 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-02 10:23:50,001 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-08-02 10:23:50,025 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-02 10:23:50,705 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-02 10:23:50,711 INFO     ___FILE_ONLY___ Starting your Cloud Shell machine...
+
+2022-08-02 10:23:50,714 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-02 10:23:53,592 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:start?alt=json HTTP/1.1" 200 None
+2022-08-02 10:23:53,595 INFO     ___FILE_ONLY___ Waiting for your Cloud Shell machine to start...
+2022-08-02 10:23:54,598 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-02 10:23:54,947 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-bdfdc1a7-134c-407b-8160-5ce2599acac4?alt=json HTTP/1.1" 200 None
+2022-08-02 10:23:56,340 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-02 10:23:56,703 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-bdfdc1a7-134c-407b-8160-5ce2599acac4?alt=json HTTP/1.1" 200 None
+2022-08-02 10:23:57,491 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-02 10:23:57,848 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-bdfdc1a7-134c-407b-8160-5ce2599acac4?alt=json HTTP/1.1" 200 None
+2022-08-02 10:23:59,308 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-02 10:23:59,671 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-bdfdc1a7-134c-407b-8160-5ce2599acac4?alt=json HTTP/1.1" 200 None
+2022-08-02 10:23:59,810 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-02 10:24:00,374 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-02 10:24:00,382 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-02 10:24:01,607 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:authorize?alt=json HTTP/1.1" 200 None
+2022-08-02 10:24:01,609 DEBUG    root            Running command [/usr/bin/ssh -t -p 6000 -i /home/as/.ssh/google_compute_engine -o StrictHostKeyChecking=no lmaobrub515@35.229.162.245 -- bash -l].
+2022-08-02 10:24:01,609 DEBUG    root            Executing command: ['/usr/bin/ssh', '-t', '-p', '6000', '-i', '/home/as/.ssh/google_compute_engine', '-o', 'StrictHostKeyChecking=no', 'lmaobrub515@35.229.162.245', '--', 'bash -l']
+2022-08-02 10:52:01,616 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-02 10:52:02,927 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:authorize?alt=json HTTP/1.1" 200 None
+2022-08-02 10:55:06,103 INFO     root            Display format: "default"

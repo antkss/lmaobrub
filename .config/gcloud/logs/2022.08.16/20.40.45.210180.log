@@ -1,0 +1,16 @@
+2022-08-16 20:40:45,214 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud_shell']
+2022-08-16 20:40:45,229 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud-shell', 'ssh']
+2022-08-16 20:40:45,247 DEBUG    root            Running [gcloud.cloud-shell.ssh] with arguments: [--authorize-session: "True"]
+2022-08-16 20:40:45,259 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2022-08-16 20:40:45,261 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-16 20:40:45,442 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-08-16 20:40:45,466 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-16 20:40:46,088 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-16 20:40:46,090 INFO     ___FILE_ONLY___ Starting your Cloud Shell machine...
+
+2022-08-16 20:40:46,093 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-16 20:40:46,402 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

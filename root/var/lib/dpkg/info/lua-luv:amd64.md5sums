@@ -1,0 +1,6 @@
+cc02baf799e4c94e806a23b4bfc60863  usr/lib/x86_64-linux-gnu/liblua5.1-luv.so.0.0.0
+1662276b4e4de1b17c62ff88cfcc294a  usr/lib/x86_64-linux-gnu/liblua5.2-luv.so.0.0.0
+3e3ec63a89733efacd4b5925118f41c0  usr/lib/x86_64-linux-gnu/liblua5.3-luv.so.0.0.0
+c5ff5697b503bee42072fbf94ebaa3d7  usr/share/doc/lua-luv/changelog.Debian.gz
+73d2e71d11b281a9b4784c72d7a1fd5b  usr/share/doc/lua-luv/copyright
+4c8c72b927c3b6d985e7183dbe70e5e4  usr/share/lintian/overrides/lua-luv

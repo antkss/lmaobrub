@@ -1,0 +1,46 @@
+2022-08-20 11:44:38,727 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud_shell']
+2022-08-20 11:44:38,741 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud-shell', 'ssh']
+2022-08-20 11:44:38,754 DEBUG    root            Running [gcloud.cloud-shell.ssh] with arguments: [--authorize-session: "True"]
+2022-08-20 11:44:38,762 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2022-08-20 11:44:38,764 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-20 11:44:38,957 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-08-20 11:44:38,983 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-20 11:44:39,547 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-20 11:44:39,550 INFO     ___FILE_ONLY___ Starting your Cloud Shell machine...
+
+2022-08-20 11:44:39,554 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-20 11:44:42,056 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:start?alt=json HTTP/1.1" 200 None
+2022-08-20 11:44:42,059 INFO     ___FILE_ONLY___ Waiting for your Cloud Shell machine to start...
+2022-08-20 11:44:43,063 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-20 11:44:43,406 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-d71791a0-3157-4622-8d7b-e211ed833a20?alt=json HTTP/1.1" 200 None
+2022-08-20 11:44:44,332 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-20 11:44:44,677 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-d71791a0-3157-4622-8d7b-e211ed833a20?alt=json HTTP/1.1" 200 None
+2022-08-20 11:44:45,394 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-20 11:44:45,756 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-d71791a0-3157-4622-8d7b-e211ed833a20?alt=json HTTP/1.1" 200 None
+2022-08-20 11:44:47,426 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-20 11:44:47,778 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-d71791a0-3157-4622-8d7b-e211ed833a20?alt=json HTTP/1.1" 200 None
+2022-08-20 11:44:47,873 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-20 11:44:48,432 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-20 11:44:48,446 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-20 11:44:49,606 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:authorize?alt=json HTTP/1.1" 200 None
+2022-08-20 11:44:49,609 DEBUG    root            Running command [/usr/bin/ssh -t -p 6000 -i /home/as/.ssh/google_compute_engine -o StrictHostKeyChecking=no lmaobrub515@35.234.54.255 -- bash -l].
+2022-08-20 11:44:49,609 DEBUG    root            Executing command: ['/usr/bin/ssh', '-t', '-p', '6000', '-i', '/home/as/.ssh/google_compute_engine', '-o', 'StrictHostKeyChecking=no', 'lmaobrub515@35.234.54.255', '--', 'bash -l']
+2022-08-20 12:12:49,616 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-20 12:12:50,867 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:authorize?alt=json HTTP/1.1" 200 None
+2022-08-20 12:40:50,875 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2022-08-20 12:40:50,876 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-20 12:40:51,043 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-08-20 12:40:51,052 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-20 12:40:52,340 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:authorize?alt=json HTTP/1.1" 200 None
+2022-08-20 12:53:47,830 DEBUG    root            (gcloud.cloud-shell.ssh) [/usr/bin/ssh] exited with return code [255].
+Traceback (most recent call last):
+  File "/home/as/cac/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 987, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/home/as/cac/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 809, in Run
+    resources = command_instance.Run(args)
+  File "/home/as/cac/google-cloud-sdk/lib/surface/cloud_shell/ssh.py", line 114, in Run
+    command.Run(connection_info.ssh_env)
+  File "/home/as/cac/google-cloud-sdk/lib/googlecloudsdk/command_lib/util/ssh/ssh.py", line 1541, in Run
+    raise CommandError(args[0], return_code=status)
+googlecloudsdk.command_lib.util.ssh.ssh.CommandError: [/usr/bin/ssh] exited with return code [255].
+2022-08-20 12:53:47,834 ERROR    root            (gcloud.cloud-shell.ssh) [/usr/bin/ssh] exited with return code [255].

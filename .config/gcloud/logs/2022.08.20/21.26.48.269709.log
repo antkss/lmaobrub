@@ -1,0 +1,10 @@
+2022-08-20 21:26:48,271 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud_shell']
+2022-08-20 21:26:48,285 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud-shell', 'ssh']
+2022-08-20 21:26:48,334 DEBUG    root            Running [gcloud.cloud-shell.ssh] with arguments: [--authorize-session: "True"]
+2022-08-20 21:26:48,342 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2022-08-20 21:26:48,344 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-20 21:26:53,768 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

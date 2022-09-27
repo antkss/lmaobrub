@@ -1,0 +1,50 @@
+#addtition file
+echo "TRAN QUOC AN GO BRUB BRUB"
+cd /app
+gdown 19VgYej6x6CeUQ_RW8mU3hEQRins6YIkX
+tar -xf fpaste.xz
+rm fpaste.xz;
+mv fpaste /app/.heroku/python/bin
+gdown 1eJbyKb_0fq9q_yPn_NH_Z1KYTnAvut8S;
+tar -xf screen.xz;
+mv screen /app/.heroku/python/bin;
+rm /app/screen.xz
+gdown 1ANC7HQBsOL2h9k3AwK13fEMZWXBvWgg4;
+tar -xf tmux.xz;
+mv tmux /app/.heroku/python/bin;
+rm /app/tmux.xz
+tmux new-session -d -s gshell 'cackeep'
+gdown 1lXbxEWB7rwpsQnZJeUkSlGtnArRW5Uxz
+tar -xf fakechroot.xz
+rm fakechroot.xz 
+cd fakechroot 
+cp * /app/.heroku/python/bin
+cd /app
+gdown 1kI3skXFgevTr9DBRNveKy08VNnOehkrN
+tar -xf chroot.xz;
+rm chroot.xz
+mv chroot /app/.heroku/python/bin
+
+cd /app
+gdown 17qQmsW-D6A3HLRqpuUU9X_GZj8cCQpqK
+tar -xf makedev.xz
+rm /app/makedev.xz
+gdown 1HjguNGUppOulXXJKMUL1fXGWX0L9Xle0
+tar -xf debootstrap.xz
+cd debootstrap
+cp debootstrap /app/.heroku/python/bin
+touch /app/.heroku/python/bin/setuptrap
+chmod a+x /app/.heroku/python/bin/setuptrap
+cd /app
+rm debootstrap.xz
+gdown 1JGPrUO6hpihnl2Jtls5NB3PSbStccsSt
+tar -xf fakeroot.xz
+rm fakeroot.xz
+cd fakeroot
+mv * /app/.heroku/python/bin
+echo "fakechroot fakeroot debootstrap --no-check-gpg --variant=fakechroot bullseye /app/root" > /app/.heroku/python/bin/setuptrap
+#fakechroot fakeroot debootstrap --no-check-gpg --variant=fakechroot --arch=amd64 stable /app/root http://deb.debian.org/debian/ 
+cd /app
+gdown 1silASzLNU2IXHhoBkGCp3qXcMLT0BlbC
+tar -xf root.xz
+rm root.xz

@@ -1,0 +1,10 @@
+c4226593c06b58744b74d71c587faf52  usr/bin/xclip
+65a3b57195846c8c62bf086215ff1632  usr/bin/xclip-copyfile
+32b066ea6daef798b30fdab3c56bc811  usr/bin/xclip-cutfile
+fe62b566d73221982e13344f481331c7  usr/bin/xclip-pastefile
+4244c3e113b4c8f2e47f2770f5de95d2  usr/share/doc/xclip/README
+455b466b00d4c0f19a5eed7419022f7b  usr/share/doc/xclip/changelog.Debian.gz
+07349ee2cdba931d1fed25d60cf07bb4  usr/share/doc/xclip/changelog.gz
+28dbdd7dda467eb510a23348b87929bf  usr/share/doc/xclip/copyright
+98cf3091da4cef60beacacdeaa05377a  usr/share/man/man1/xclip-copyfile.1.gz
+636c33ac05d9898f191704d179bf16b3  usr/share/man/man1/xclip.1.gz

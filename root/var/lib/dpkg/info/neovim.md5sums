@@ -1,0 +1,8 @@
+1b5660660c5949daf04f5376cccd2baa  usr/bin/nvim
+5a7859b127e2303f61dc81621a15e120  usr/libexec/neovim/ex
+e27dd5379be225a515f1d388e8b3df75  usr/libexec/neovim/rview
+694d9ffd54131e08e72d5d7d3ac3f628  usr/libexec/neovim/rvim
+2cba26b4c49cc75b139cce2ad68ed209  usr/libexec/neovim/view
+69ba3c77b9a6dc2c97042ef2719bb3a6  usr/libexec/neovim/vimdiff
+9ad2a4822c3f1f494ebe03f12a059487  usr/share/doc/neovim/changelog.Debian.gz
+937761b9dfc369009dfd9a77113700bf  usr/share/doc/neovim/copyright

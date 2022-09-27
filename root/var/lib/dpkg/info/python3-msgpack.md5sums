@@ -1,0 +1,15 @@
+fe89b09067b910da33dd02d64ac3124f  usr/lib/python3/dist-packages/msgpack-1.0.0.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/msgpack-1.0.0.egg-info/dependency_links.txt
+e18e4d8561a4648888635f02ee4e51d7  usr/lib/python3/dist-packages/msgpack-1.0.0.egg-info/top_level.txt
+b2a76c69f1ae5c3857d53baaa6d08253  usr/lib/python3/dist-packages/msgpack/__init__.py
+d058e39f758a407445a6fbd1d9c077e4  usr/lib/python3/dist-packages/msgpack/_cmsgpack.cpython-39-x86_64-linux-gnu.so
+9c72ceaec0877994c5aaa014a180611f  usr/lib/python3/dist-packages/msgpack/_version.py
+741a33042796dcc6a1c101898f38e87e  usr/lib/python3/dist-packages/msgpack/exceptions.py
+6de2538854926d556d475c42dd3e3027  usr/lib/python3/dist-packages/msgpack/ext.py
+e002564e51447a64cc9291b33d19f230  usr/lib/python3/dist-packages/msgpack/fallback.py
+16ac9cdf4fd384832095b9dc4e28a602  usr/share/doc/python3-msgpack/README.md.gz
+7ac15101bc2e584deb77878f1dfa2307  usr/share/doc/python3-msgpack/changelog.Debian.amd64.gz
+036b4fabb5609d41033b6a3a8632d9da  usr/share/doc/python3-msgpack/changelog.Debian.gz
+c1b97af0574d65e90dcf1ca578874083  usr/share/doc/python3-msgpack/changelog.gz
+c8bbddbd4583cc12b9441893a7983e5b  usr/share/doc/python3-msgpack/copyright
+a3b8951a2dee7afb8cc8933feab09ffe  usr/share/python3/dist/python3-msgpack

@@ -1,0 +1,76 @@
+Name: base-passwd/group-add
+Template: base-passwd/group-add
+Owners: base-passwd
+
+Name: base-passwd/group-change-gid
+Template: base-passwd/group-change-gid
+Owners: base-passwd
+
+Name: base-passwd/group-move
+Template: base-passwd/group-move
+Owners: base-passwd
+
+Name: base-passwd/group-remove
+Template: base-passwd/group-remove
+Owners: base-passwd
+
+Name: base-passwd/user-add
+Template: base-passwd/user-add
+Owners: base-passwd
+
+Name: base-passwd/user-change-gecos
+Template: base-passwd/user-change-gecos
+Owners: base-passwd
+
+Name: base-passwd/user-change-gid
+Template: base-passwd/user-change-gid
+Owners: base-passwd
+
+Name: base-passwd/user-change-home
+Template: base-passwd/user-change-home
+Owners: base-passwd
+
+Name: base-passwd/user-change-shell
+Template: base-passwd/user-change-shell
+Owners: base-passwd
+
+Name: base-passwd/user-change-uid
+Template: base-passwd/user-change-uid
+Owners: base-passwd
+
+Name: base-passwd/user-move
+Template: base-passwd/user-move
+Owners: base-passwd
+
+Name: base-passwd/user-remove
+Template: base-passwd/user-remove
+Owners: base-passwd
+
+Name: glibc/disable-screensaver
+Template: glibc/disable-screensaver
+Owners: libc6, libc6:amd64
+
+Name: glibc/kernel-not-supported
+Template: glibc/kernel-not-supported
+Owners: libc6, libc6:amd64
+
+Name: glibc/kernel-too-old
+Template: glibc/kernel-too-old
+Owners: libc6, libc6:amd64
+
+Name: glibc/restart-failed
+Template: glibc/restart-failed
+Owners: libc6, libc6:amd64
+
+Name: glibc/restart-services
+Template: glibc/restart-services
+Owners: libc6, libc6:amd64
+
+Name: glibc/upgrade
+Template: glibc/upgrade
+Owners: libc6, libc6:amd64
+
+Name: libraries/restart-without-asking
+Template: libraries/restart-without-asking
+Owners: libc6, libc6:amd64
+

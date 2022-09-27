@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python3
+/usr/lib/python3/dist-packages
+/usr/lib/python3/dist-packages/greenlet-0.4.17.egg-info
+/usr/lib/python3/dist-packages/greenlet.cpython-39-x86_64-linux-gnu.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/python3-greenlet
+/usr/share/doc/python3-greenlet/changelog.Debian.amd64.gz
+/usr/share/doc/python3-greenlet/changelog.Debian.gz
+/usr/share/doc/python3-greenlet/copyright

@@ -1,0 +1,6 @@
+2022-08-01 19:29:14,697 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud_shell']
+2022-08-01 19:29:14,713 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud-shell', 'ssh']
+2022-08-01 19:29:14,715 ERROR    root            (gcloud.cloud-shell.ssh) unrecognized arguments: --authorize-login (did you mean '--authorize-session'?) 
+
+To search the help text of gcloud commands, run:
+  gcloud help -- SEARCH_TERMS

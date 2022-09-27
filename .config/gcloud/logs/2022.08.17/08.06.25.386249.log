@@ -1,0 +1,30 @@
+2022-08-17 08:06:25,387 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud_shell']
+2022-08-17 08:06:25,400 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud-shell', 'ssh']
+2022-08-17 08:06:25,414 DEBUG    root            Running [gcloud.cloud-shell.ssh] with arguments: [--authorize-session: "True"]
+2022-08-17 08:06:25,421 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2022-08-17 08:06:25,423 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-17 08:06:25,576 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-08-17 08:06:25,613 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-17 08:06:26,218 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-17 08:06:26,220 INFO     ___FILE_ONLY___ Starting your Cloud Shell machine...
+
+2022-08-17 08:06:26,223 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-17 08:06:28,603 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:start?alt=json HTTP/1.1" 200 None
+2022-08-17 08:06:28,608 INFO     ___FILE_ONLY___ Waiting for your Cloud Shell machine to start...
+2022-08-17 08:06:29,617 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-17 08:06:29,955 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-5a3ec55e-1337-4caa-939a-03ea6b01cab8?alt=json HTTP/1.1" 200 None
+2022-08-17 08:06:30,718 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-17 08:06:31,035 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-5a3ec55e-1337-4caa-939a-03ea6b01cab8?alt=json HTTP/1.1" 200 None
+2022-08-17 08:06:31,986 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-17 08:06:32,296 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-5a3ec55e-1337-4caa-939a-03ea6b01cab8?alt=json HTTP/1.1" 200 None
+2022-08-17 08:06:33,452 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-17 08:06:33,761 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-5a3ec55e-1337-4caa-939a-03ea6b01cab8?alt=json HTTP/1.1" 200 None
+2022-08-17 08:06:35,762 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-17 08:06:36,076 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-5a3ec55e-1337-4caa-939a-03ea6b01cab8?alt=json HTTP/1.1" 200 None
+2022-08-17 08:06:36,231 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-17 08:06:36,777 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-17 08:06:36,784 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-17 08:06:38,060 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:authorize?alt=json HTTP/1.1" 200 None
+2022-08-17 08:06:38,062 DEBUG    root            Running command [/usr/bin/ssh -t -p 6000 -i /home/as/.ssh/google_compute_engine -o StrictHostKeyChecking=no lmaobrub515@35.229.133.28 -- bash -l].
+2022-08-17 08:06:38,062 DEBUG    root            Executing command: ['/usr/bin/ssh', '-t', '-p', '6000', '-i', '/home/as/.ssh/google_compute_engine', '-o', 'StrictHostKeyChecking=no', 'lmaobrub515@35.229.133.28', '--', 'bash -l']
+2022-08-17 08:12:22,857 INFO     root            Display format: "default"

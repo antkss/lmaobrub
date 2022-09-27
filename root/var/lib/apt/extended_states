@@ -1,0 +1,84 @@
+Package: libc6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mawk
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcrypt1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gcc-10-base
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdebconfclient0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgcc-s1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libevent-2.1-7
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libvterm0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: lua-luv
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libluajit-5.1-2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtermkey1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: neovim-runtime
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-pynvim
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libunibilium4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xauth
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmsgpackc2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xclip
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-msgpack
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-neovim
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-greenlet
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libluajit-5.1-common
+Architecture: amd64
+Auto-Installed: 1
+

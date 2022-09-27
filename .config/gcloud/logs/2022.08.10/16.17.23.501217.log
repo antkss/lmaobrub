@@ -1,0 +1,38 @@
+2022-08-10 16:17:23,504 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud_shell']
+2022-08-10 16:17:23,519 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud-shell', 'ssh']
+2022-08-10 16:17:23,589 DEBUG    root            Running [gcloud.cloud-shell.ssh] with arguments: [--authorize-session: "True"]
+2022-08-10 16:17:23,602 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2022-08-10 16:17:23,604 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-10 16:17:28,777 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-08-10 16:17:28,805 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-10 16:17:29,421 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-10 16:17:29,425 INFO     ___FILE_ONLY___ Starting your Cloud Shell machine...
+
+2022-08-10 16:17:29,431 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-10 16:17:31,967 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:start?alt=json HTTP/1.1" 200 None
+2022-08-10 16:17:31,971 INFO     ___FILE_ONLY___ Waiting for your Cloud Shell machine to start...
+2022-08-10 16:17:32,974 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-10 16:17:33,559 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-24a1e19b-8374-474f-b1af-1df16ea9f325?alt=json HTTP/1.1" 200 None
+2022-08-10 16:17:35,038 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-10 16:17:35,427 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-24a1e19b-8374-474f-b1af-1df16ea9f325?alt=json HTTP/1.1" 200 None
+2022-08-10 16:17:36,961 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-10 16:17:38,301 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-24a1e19b-8374-474f-b1af-1df16ea9f325?alt=json HTTP/1.1" 200 None
+2022-08-10 16:17:38,386 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-10 16:17:39,273 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-10 16:17:39,289 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-10 16:17:40,750 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:authorize?alt=json HTTP/1.1" 200 None
+2022-08-10 16:17:40,753 DEBUG    root            Running command [/usr/bin/ssh -t -p 6000 -i /home/as/.ssh/google_compute_engine -o StrictHostKeyChecking=no lmaobrub515@34.81.96.245 -- bash -l].
+2022-08-10 16:17:40,753 DEBUG    root            Executing command: ['/usr/bin/ssh', '-t', '-p', '6000', '-i', '/home/as/.ssh/google_compute_engine', '-o', 'StrictHostKeyChecking=no', 'lmaobrub515@34.81.96.245', '--', 'bash -l']
+2022-08-10 16:24:09,873 INFO     root            Display format: "default"
+2022-08-10 16:24:09,874 DEBUG    root            Checking for updates...
+2022-08-10 16:24:09,876 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2022-08-10 16:24:10,038 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 201563
+2022-08-10 16:24:10,593 DEBUG    root            Updating notification cache...
+2022-08-10 16:24:10,593 DEBUG    root            Activating notification: [default]
+2022-08-10 16:24:10,593 INFO     ___FILE_ONLY___ 
+
+Updates are available for some Google Cloud CLI components.  To install them,
+please run:
+  $ gcloud components update
+
+

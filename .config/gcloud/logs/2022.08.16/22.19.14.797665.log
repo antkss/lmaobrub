@@ -1,0 +1,22 @@
+2022-08-16 22:19:14,798 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud_shell']
+2022-08-16 22:19:14,803 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud-shell', 'ssh']
+2022-08-16 22:19:14,805 DEBUG    root            Running [gcloud.cloud-shell.ssh] with arguments: [--authorize-session: "True"]
+2022-08-16 22:19:14,819 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-16 22:19:15,377 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-16 22:19:15,389 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-16 22:19:16,644 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:authorize?alt=json HTTP/1.1" 200 None
+2022-08-16 22:19:16,646 DEBUG    root            Running command [/usr/bin/ssh -t -p 6000 -i /home/as/.ssh/google_compute_engine -o StrictHostKeyChecking=no lmaobrub515@34.81.118.147 -- bash -l].
+2022-08-16 22:19:16,646 DEBUG    root            Executing command: ['/usr/bin/ssh', '-t', '-p', '6000', '-i', '/home/as/.ssh/google_compute_engine', '-o', 'StrictHostKeyChecking=no', 'lmaobrub515@34.81.118.147', '--', 'bash -l']
+2022-08-16 22:24:11,557 INFO     root            Display format: "default"
+2022-08-16 22:24:11,558 DEBUG    root            Checking for updates...
+2022-08-16 22:24:11,560 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2022-08-16 22:24:11,747 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 201563
+2022-08-16 22:24:12,026 DEBUG    root            Updating notification cache...
+2022-08-16 22:24:12,026 DEBUG    root            Activating notification: [default]
+2022-08-16 22:24:12,026 INFO     ___FILE_ONLY___ 
+
+Updates are available for some Google Cloud CLI components.  To install them,
+please run:
+  $ gcloud components update
+
+

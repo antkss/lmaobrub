@@ -1,0 +1,18 @@
+update-alternatives 2022-09-25 11:47:45: run with --quiet --install /usr/bin/awk awk /usr/bin/mawk 5 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/mawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/mawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/mawk.1.gz
+update-alternatives 2022-09-25 11:47:45: link group awk updated to point to /usr/bin/mawk
+update-alternatives 2022-09-27 05:09:16: run with --install /usr/bin/editor editor /usr/bin/nvim 30 --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/nvim.1.gz
+update-alternatives 2022-09-27 05:09:16: link group editor updated to point to /usr/bin/nvim
+update-alternatives 2022-09-27 05:09:16: run with --install /usr/bin/ex ex /usr/libexec/neovim/ex 30
+update-alternatives 2022-09-27 05:09:16: link group ex updated to point to /usr/libexec/neovim/ex
+update-alternatives 2022-09-27 05:09:16: run with --install /usr/bin/rvim rvim /usr/libexec/neovim/rvim 30
+update-alternatives 2022-09-27 05:09:16: link group rvim updated to point to /usr/libexec/neovim/rvim
+update-alternatives 2022-09-27 05:09:16: run with --install /usr/bin/rview rview /usr/libexec/neovim/rview 30
+update-alternatives 2022-09-27 05:09:16: link group rview updated to point to /usr/libexec/neovim/rview
+update-alternatives 2022-09-27 05:09:16: run with --install /usr/bin/vi vi /usr/bin/nvim 30
+update-alternatives 2022-09-27 05:09:16: link group vi updated to point to /usr/bin/nvim
+update-alternatives 2022-09-27 05:09:16: run with --install /usr/bin/vim vim /usr/bin/nvim 30
+update-alternatives 2022-09-27 05:09:16: link group vim updated to point to /usr/bin/nvim
+update-alternatives 2022-09-27 05:09:16: run with --install /usr/bin/view view /usr/libexec/neovim/view 30
+update-alternatives 2022-09-27 05:09:16: link group view updated to point to /usr/libexec/neovim/view
+update-alternatives 2022-09-27 05:09:16: run with --install /usr/bin/vimdiff vimdiff /usr/libexec/neovim/vimdiff 30
+update-alternatives 2022-09-27 05:09:16: link group vimdiff updated to point to /usr/libexec/neovim/vimdiff

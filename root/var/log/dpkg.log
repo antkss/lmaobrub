@@ -1,0 +1,285 @@
+2022-09-25 10:54:52 startup archives install
+2022-09-25 10:54:52 install base-passwd:amd64 <none> 3.5.51
+2022-09-25 10:54:52 status half-installed base-passwd:amd64 3.5.51
+2022-09-25 10:54:52 status unpacked base-passwd:amd64 3.5.51
+2022-09-25 10:54:52 configure base-passwd:amd64 3.5.51 3.5.51
+2022-09-25 10:54:52 status half-configured base-passwd:amd64 3.5.51
+2022-09-25 10:54:53 status installed base-passwd:amd64 3.5.51
+2022-09-25 10:54:53 startup archives install
+2022-09-25 10:54:53 install base-files:amd64 <none> 11.1+deb11u5
+2022-09-25 10:54:53 status half-installed base-files:amd64 11.1+deb11u5
+2022-09-25 10:54:53 status unpacked base-files:amd64 11.1+deb11u5
+2022-09-25 10:54:53 configure base-files:amd64 11.1+deb11u5 11.1+deb11u5
+2022-09-25 10:54:53 status half-configured base-files:amd64 11.1+deb11u5
+2022-09-25 11:47:43 startup archives unpack
+2022-09-25 11:47:43 install gcc-10-base:amd64 <none> 10.2.1-6
+2022-09-25 11:47:43 status half-installed gcc-10-base:amd64 10.2.1-6
+2022-09-25 11:47:44 status unpacked gcc-10-base:amd64 10.2.1-6
+2022-09-25 11:47:44 startup packages configure
+2022-09-25 11:47:44 configure gcc-10-base:amd64 10.2.1-6 <none>
+2022-09-25 11:47:44 status unpacked gcc-10-base:amd64 10.2.1-6
+2022-09-25 11:47:44 status half-configured gcc-10-base:amd64 10.2.1-6
+2022-09-25 11:47:44 status installed gcc-10-base:amd64 10.2.1-6
+2022-09-25 11:47:44 startup archives unpack
+2022-09-25 11:47:44 install libcrypt1:amd64 <none> 1:4.4.18-4
+2022-09-25 11:47:44 status half-installed libcrypt1:amd64 1:4.4.18-4
+2022-09-25 11:47:44 status unpacked libcrypt1:amd64 1:4.4.18-4
+2022-09-25 11:47:44 install libc6:amd64 <none> 2.31-13+deb11u4
+2022-09-25 11:47:44 status half-installed libc6:amd64 2.31-13+deb11u4
+2022-09-25 11:47:44 status unpacked libc6:amd64 2.31-13+deb11u4
+2022-09-25 11:47:45 install libgcc-s1:amd64 <none> 10.2.1-6
+2022-09-25 11:47:45 status half-installed libgcc-s1:amd64 10.2.1-6
+2022-09-25 11:47:45 status unpacked libgcc-s1:amd64 10.2.1-6
+2022-09-25 11:47:45 startup packages configure
+2022-09-25 11:47:45 configure libgcc-s1:amd64 10.2.1-6 <none>
+2022-09-25 11:47:45 status unpacked libgcc-s1:amd64 10.2.1-6
+2022-09-25 11:47:45 status half-configured libgcc-s1:amd64 10.2.1-6
+2022-09-25 11:47:45 status installed libgcc-s1:amd64 10.2.1-6
+2022-09-25 11:47:45 configure libcrypt1:amd64 1:4.4.18-4 <none>
+2022-09-25 11:47:45 status unpacked libcrypt1:amd64 1:4.4.18-4
+2022-09-25 11:47:45 status half-configured libcrypt1:amd64 1:4.4.18-4
+2022-09-25 11:47:45 status installed libcrypt1:amd64 1:4.4.18-4
+2022-09-25 11:47:45 configure libc6:amd64 2.31-13+deb11u4 <none>
+2022-09-25 11:47:45 status unpacked libc6:amd64 2.31-13+deb11u4
+2022-09-25 11:47:45 status half-configured libc6:amd64 2.31-13+deb11u4
+2022-09-25 11:47:45 status installed libc6:amd64 2.31-13+deb11u4
+2022-09-25 11:47:45 startup archives unpack
+2022-09-25 11:47:45 install mawk:amd64 <none> 1.3.4.20200120-2
+2022-09-25 11:47:45 status half-installed mawk:amd64 1.3.4.20200120-2
+2022-09-25 11:47:45 status unpacked mawk:amd64 1.3.4.20200120-2
+2022-09-25 11:47:45 startup packages configure
+2022-09-25 11:47:45 configure mawk:amd64 1.3.4.20200120-2 <none>
+2022-09-25 11:47:45 status unpacked mawk:amd64 1.3.4.20200120-2
+2022-09-25 11:47:45 status half-configured mawk:amd64 1.3.4.20200120-2
+2022-09-25 11:47:45 status installed mawk:amd64 1.3.4.20200120-2
+2022-09-25 11:47:45 configure base-files:amd64 11.1+deb11u5 <none>
+2022-09-25 11:47:45 status half-configured base-files:amd64 11.1+deb11u5
+2022-09-25 11:51:25 startup archives unpack
+2022-09-25 11:51:25 upgrade base-files:amd64 11.1+deb11u4 11.1+deb11u5
+2022-09-25 11:51:25 status half-configured base-files:amd64 11.1+deb11u4
+2022-09-25 11:51:25 status unpacked base-files:amd64 11.1+deb11u4
+2022-09-25 11:51:25 status half-installed base-files:amd64 11.1+deb11u4
+2022-09-25 11:51:25 status unpacked base-files:amd64 11.1+deb11u5
+2022-09-25 11:51:26 startup packages configure
+2022-09-25 11:51:26 configure base-files:amd64 11.1+deb11u5 <none>
+2022-09-25 11:51:26 status unpacked base-files:amd64 11.1+deb11u5
+2022-09-25 11:51:26 status half-configured base-files:amd64 11.1+deb11u5
+2022-09-25 11:51:26 status installed base-files:amd64 11.1+deb11u5
+2022-09-25 11:51:26 startup archives unpack
+2022-09-25 11:51:26 upgrade dpkg:amd64 1.20.11 1.20.12
+2022-09-25 11:51:26 status half-configured dpkg:amd64 1.20.11
+2022-09-25 11:51:26 status unpacked dpkg:amd64 1.20.11
+2022-09-25 11:51:26 status half-installed dpkg:amd64 1.20.11
+2022-09-25 11:51:26 status unpacked dpkg:amd64 1.20.12
+2022-09-25 11:51:26 startup packages configure
+2022-09-25 11:51:26 configure dpkg:amd64 1.20.12 <none>
+2022-09-25 11:51:26 status unpacked dpkg:amd64 1.20.12
+2022-09-25 11:51:26 status half-configured dpkg:amd64 1.20.12
+2022-09-25 11:51:26 status installed dpkg:amd64 1.20.12
+2022-09-25 11:51:26 startup archives unpack
+2022-09-25 11:51:26 upgrade libc-bin:amd64 2.31-13+deb11u3 2.31-13+deb11u4
+2022-09-25 11:51:26 status half-configured libc-bin:amd64 2.31-13+deb11u3
+2022-09-25 11:51:26 status unpacked libc-bin:amd64 2.31-13+deb11u3
+2022-09-25 11:51:26 status half-installed libc-bin:amd64 2.31-13+deb11u3
+2022-09-25 11:51:26 status unpacked libc-bin:amd64 2.31-13+deb11u4
+2022-09-25 11:51:26 startup packages configure
+2022-09-25 11:51:26 configure libc-bin:amd64 2.31-13+deb11u4 <none>
+2022-09-25 11:51:26 status unpacked libc-bin:amd64 2.31-13+deb11u4
+2022-09-25 11:51:26 status half-configured libc-bin:amd64 2.31-13+deb11u4
+2022-09-25 11:51:26 status installed libc-bin:amd64 2.31-13+deb11u4
+2022-09-25 11:51:26 startup archives unpack
+2022-09-25 11:51:27 upgrade libgnutls30:amd64 3.7.1-5+deb11u1 3.7.1-5+deb11u2
+2022-09-25 11:51:27 status triggers-pending libc-bin:amd64 2.31-13+deb11u4
+2022-09-25 11:51:27 status half-configured libgnutls30:amd64 3.7.1-5+deb11u1
+2022-09-25 11:51:27 status unpacked libgnutls30:amd64 3.7.1-5+deb11u1
+2022-09-25 11:51:27 status half-installed libgnutls30:amd64 3.7.1-5+deb11u1
+2022-09-25 11:51:27 status unpacked libgnutls30:amd64 3.7.1-5+deb11u2
+2022-09-25 11:51:27 startup packages configure
+2022-09-25 11:51:27 configure libgnutls30:amd64 3.7.1-5+deb11u2 <none>
+2022-09-25 11:51:27 status unpacked libgnutls30:amd64 3.7.1-5+deb11u2
+2022-09-25 11:51:27 status half-configured libgnutls30:amd64 3.7.1-5+deb11u2
+2022-09-25 11:51:27 status installed libgnutls30:amd64 3.7.1-5+deb11u2
+2022-09-25 11:51:27 startup archives unpack
+2022-09-25 11:51:27 upgrade libk5crypto3:amd64 1.18.3-6+deb11u1 1.18.3-6+deb11u2
+2022-09-25 11:51:27 status half-configured libk5crypto3:amd64 1.18.3-6+deb11u1
+2022-09-25 11:51:27 status unpacked libk5crypto3:amd64 1.18.3-6+deb11u1
+2022-09-25 11:51:27 status half-installed libk5crypto3:amd64 1.18.3-6+deb11u1
+2022-09-25 11:51:27 status unpacked libk5crypto3:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:27 startup packages configure
+2022-09-25 11:51:27 configure libk5crypto3:amd64 1.18.3-6+deb11u2 <none>
+2022-09-25 11:51:27 status unpacked libk5crypto3:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:27 status half-configured libk5crypto3:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:27 status installed libk5crypto3:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:27 startup archives unpack
+2022-09-25 11:51:27 upgrade libkrb5support0:amd64 1.18.3-6+deb11u1 1.18.3-6+deb11u2
+2022-09-25 11:51:27 status half-configured libkrb5support0:amd64 1.18.3-6+deb11u1
+2022-09-25 11:51:27 status unpacked libkrb5support0:amd64 1.18.3-6+deb11u1
+2022-09-25 11:51:27 status half-installed libkrb5support0:amd64 1.18.3-6+deb11u1
+2022-09-25 11:51:27 status unpacked libkrb5support0:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:27 startup packages configure
+2022-09-25 11:51:27 configure libkrb5support0:amd64 1.18.3-6+deb11u2 <none>
+2022-09-25 11:51:27 status unpacked libkrb5support0:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:27 status half-configured libkrb5support0:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:27 status installed libkrb5support0:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:27 startup archives unpack
+2022-09-25 11:51:27 upgrade libkrb5-3:amd64 1.18.3-6+deb11u1 1.18.3-6+deb11u2
+2022-09-25 11:51:27 status half-configured libkrb5-3:amd64 1.18.3-6+deb11u1
+2022-09-25 11:51:27 status unpacked libkrb5-3:amd64 1.18.3-6+deb11u1
+2022-09-25 11:51:27 status half-installed libkrb5-3:amd64 1.18.3-6+deb11u1
+2022-09-25 11:51:27 status unpacked libkrb5-3:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:27 startup packages configure
+2022-09-25 11:51:27 configure libkrb5-3:amd64 1.18.3-6+deb11u2 <none>
+2022-09-25 11:51:27 status unpacked libkrb5-3:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:27 status half-configured libkrb5-3:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:27 status installed libkrb5-3:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:27 startup archives unpack
+2022-09-25 11:51:28 upgrade libgssapi-krb5-2:amd64 1.18.3-6+deb11u1 1.18.3-6+deb11u2
+2022-09-25 11:51:28 status half-configured libgssapi-krb5-2:amd64 1.18.3-6+deb11u1
+2022-09-25 11:51:28 status unpacked libgssapi-krb5-2:amd64 1.18.3-6+deb11u1
+2022-09-25 11:51:28 status half-installed libgssapi-krb5-2:amd64 1.18.3-6+deb11u1
+2022-09-25 11:51:28 status unpacked libgssapi-krb5-2:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:28 startup packages configure
+2022-09-25 11:51:28 configure libgssapi-krb5-2:amd64 1.18.3-6+deb11u2 <none>
+2022-09-25 11:51:28 status unpacked libgssapi-krb5-2:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:28 status half-configured libgssapi-krb5-2:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:28 status installed libgssapi-krb5-2:amd64 1.18.3-6+deb11u2
+2022-09-25 11:51:28 startup archives unpack
+2022-09-25 11:51:28 upgrade tzdata:all 2021a-1+deb11u4 2021a-1+deb11u5
+2022-09-25 11:51:28 status half-configured tzdata:all 2021a-1+deb11u4
+2022-09-25 11:51:28 status unpacked tzdata:all 2021a-1+deb11u4
+2022-09-25 11:51:28 status half-installed tzdata:all 2021a-1+deb11u4
+2022-09-25 11:51:29 status unpacked tzdata:all 2021a-1+deb11u5
+2022-09-25 11:51:29 install libevent-2.1-7:amd64 <none> 2.1.12-stable-1
+2022-09-25 11:51:29 status half-installed libevent-2.1-7:amd64 2.1.12-stable-1
+2022-09-25 11:51:29 status unpacked libevent-2.1-7:amd64 2.1.12-stable-1
+2022-09-25 11:51:29 upgrade tmux:amd64 2.3-4 3.1c-1+deb11u1
+2022-09-25 11:51:29 status half-configured tmux:amd64 2.3-4
+2022-09-25 11:51:29 status unpacked tmux:amd64 2.3-4
+2022-09-25 11:51:29 status half-installed tmux:amd64 2.3-4
+2022-09-25 11:51:29 status unpacked tmux:amd64 3.1c-1+deb11u1
+2022-09-25 11:51:29 startup packages configure
+2022-09-25 11:51:29 configure tzdata:all 2021a-1+deb11u5 <none>
+2022-09-25 11:51:29 status unpacked tzdata:all 2021a-1+deb11u5
+2022-09-25 11:51:29 status half-configured tzdata:all 2021a-1+deb11u5
+2022-09-25 11:51:39 status installed tzdata:all 2021a-1+deb11u5
+2022-09-25 11:51:39 configure libevent-2.1-7:amd64 2.1.12-stable-1 <none>
+2022-09-25 11:51:39 status unpacked libevent-2.1-7:amd64 2.1.12-stable-1
+2022-09-25 11:51:39 status half-configured libevent-2.1-7:amd64 2.1.12-stable-1
+2022-09-25 11:51:39 status installed libevent-2.1-7:amd64 2.1.12-stable-1
+2022-09-25 11:51:39 configure tmux:amd64 3.1c-1+deb11u1 <none>
+2022-09-25 11:51:39 status unpacked tmux:amd64 3.1c-1+deb11u1
+2022-09-25 11:51:39 status half-configured tmux:amd64 3.1c-1+deb11u1
+2022-09-25 11:51:39 status installed tmux:amd64 3.1c-1+deb11u1
+2022-09-25 11:51:39 trigproc libc-bin:amd64 2.31-13+deb11u4 <none>
+2022-09-25 11:51:39 status half-configured libc-bin:amd64 2.31-13+deb11u4
+2022-09-25 11:51:39 status installed libc-bin:amd64 2.31-13+deb11u4
+2022-09-27 05:09:11 startup archives unpack
+2022-09-27 05:09:11 install libluajit-5.1-common:all <none> 2.1.0~beta3+dfsg-5.3
+2022-09-27 05:09:11 status half-installed libluajit-5.1-common:all 2.1.0~beta3+dfsg-5.3
+2022-09-27 05:09:11 status unpacked libluajit-5.1-common:all 2.1.0~beta3+dfsg-5.3
+2022-09-27 05:09:11 install libluajit-5.1-2:amd64 <none> 2.1.0~beta3+dfsg-5.3
+2022-09-27 05:09:11 status triggers-pending libc-bin:amd64 2.31-13+deb11u4
+2022-09-27 05:09:11 status half-installed libluajit-5.1-2:amd64 2.1.0~beta3+dfsg-5.3
+2022-09-27 05:09:11 status unpacked libluajit-5.1-2:amd64 2.1.0~beta3+dfsg-5.3
+2022-09-27 05:09:11 install libmsgpackc2:amd64 <none> 3.3.0-4
+2022-09-27 05:09:11 status half-installed libmsgpackc2:amd64 3.3.0-4
+2022-09-27 05:09:11 status unpacked libmsgpackc2:amd64 3.3.0-4
+2022-09-27 05:09:11 install libunibilium4:amd64 <none> 2.1.0-1
+2022-09-27 05:09:11 status half-installed libunibilium4:amd64 2.1.0-1
+2022-09-27 05:09:11 status unpacked libunibilium4:amd64 2.1.0-1
+2022-09-27 05:09:11 install libtermkey1:amd64 <none> 0.22-1
+2022-09-27 05:09:11 status half-installed libtermkey1:amd64 0.22-1
+2022-09-27 05:09:11 status unpacked libtermkey1:amd64 0.22-1
+2022-09-27 05:09:11 install libvterm0:amd64 <none> 0.1.4-1
+2022-09-27 05:09:11 status half-installed libvterm0:amd64 0.1.4-1
+2022-09-27 05:09:11 status unpacked libvterm0:amd64 0.1.4-1
+2022-09-27 05:09:11 install lua-luv:amd64 <none> 1.36.0-0-1
+2022-09-27 05:09:11 status half-installed lua-luv:amd64 1.36.0-0-1
+2022-09-27 05:09:11 status unpacked lua-luv:amd64 1.36.0-0-1
+2022-09-27 05:09:11 install neovim-runtime:all <none> 0.4.4-1
+2022-09-27 05:09:11 status half-installed neovim-runtime:all 0.4.4-1
+2022-09-27 05:09:15 status unpacked neovim-runtime:all 0.4.4-1
+2022-09-27 05:09:15 install neovim:amd64 <none> 0.4.4-1
+2022-09-27 05:09:15 status half-installed neovim:amd64 0.4.4-1
+2022-09-27 05:09:15 status unpacked neovim:amd64 0.4.4-1
+2022-09-27 05:09:15 install python3-greenlet:amd64 <none> 0.4.17-1+b1
+2022-09-27 05:09:15 status half-installed python3-greenlet:amd64 0.4.17-1+b1
+2022-09-27 05:09:15 status unpacked python3-greenlet:amd64 0.4.17-1+b1
+2022-09-27 05:09:15 install python3-msgpack:amd64 <none> 1.0.0-6+b1
+2022-09-27 05:09:15 status half-installed python3-msgpack:amd64 1.0.0-6+b1
+2022-09-27 05:09:15 status unpacked python3-msgpack:amd64 1.0.0-6+b1
+2022-09-27 05:09:15 install python3-pynvim:all <none> 0.4.2-1
+2022-09-27 05:09:15 status half-installed python3-pynvim:all 0.4.2-1
+2022-09-27 05:09:15 status unpacked python3-pynvim:all 0.4.2-1
+2022-09-27 05:09:15 install python3-neovim:all <none> 0.4.2-1
+2022-09-27 05:09:15 status half-installed python3-neovim:all 0.4.2-1
+2022-09-27 05:09:15 status unpacked python3-neovim:all 0.4.2-1
+2022-09-27 05:09:15 install xauth:amd64 <none> 1:1.1-1
+2022-09-27 05:09:15 status half-installed xauth:amd64 1:1.1-1
+2022-09-27 05:09:15 status unpacked xauth:amd64 1:1.1-1
+2022-09-27 05:09:15 install xclip:amd64 <none> 0.13-2
+2022-09-27 05:09:15 status half-installed xclip:amd64 0.13-2
+2022-09-27 05:09:15 status unpacked xclip:amd64 0.13-2
+2022-09-27 05:09:15 startup packages configure
+2022-09-27 05:09:15 configure libunibilium4:amd64 2.1.0-1 <none>
+2022-09-27 05:09:15 status unpacked libunibilium4:amd64 2.1.0-1
+2022-09-27 05:09:15 status half-configured libunibilium4:amd64 2.1.0-1
+2022-09-27 05:09:15 status installed libunibilium4:amd64 2.1.0-1
+2022-09-27 05:09:15 configure neovim-runtime:all 0.4.4-1 <none>
+2022-09-27 05:09:15 status unpacked neovim-runtime:all 0.4.4-1
+2022-09-27 05:09:15 status half-configured neovim-runtime:all 0.4.4-1
+2022-09-27 05:09:15 status installed neovim-runtime:all 0.4.4-1
+2022-09-27 05:09:15 configure libmsgpackc2:amd64 3.3.0-4 <none>
+2022-09-27 05:09:15 status unpacked libmsgpackc2:amd64 3.3.0-4
+2022-09-27 05:09:15 status half-configured libmsgpackc2:amd64 3.3.0-4
+2022-09-27 05:09:15 status installed libmsgpackc2:amd64 3.3.0-4
+2022-09-27 05:09:15 configure libvterm0:amd64 0.1.4-1 <none>
+2022-09-27 05:09:15 status unpacked libvterm0:amd64 0.1.4-1
+2022-09-27 05:09:15 status half-configured libvterm0:amd64 0.1.4-1
+2022-09-27 05:09:15 status installed libvterm0:amd64 0.1.4-1
+2022-09-27 05:09:15 configure lua-luv:amd64 1.36.0-0-1 <none>
+2022-09-27 05:09:15 status unpacked lua-luv:amd64 1.36.0-0-1
+2022-09-27 05:09:15 status half-configured lua-luv:amd64 1.36.0-0-1
+2022-09-27 05:09:15 status installed lua-luv:amd64 1.36.0-0-1
+2022-09-27 05:09:15 configure python3-greenlet:amd64 0.4.17-1+b1 <none>
+2022-09-27 05:09:15 status unpacked python3-greenlet:amd64 0.4.17-1+b1
+2022-09-27 05:09:15 status half-configured python3-greenlet:amd64 0.4.17-1+b1
+2022-09-27 05:09:15 status installed python3-greenlet:amd64 0.4.17-1+b1
+2022-09-27 05:09:15 configure libluajit-5.1-common:all 2.1.0~beta3+dfsg-5.3 <none>
+2022-09-27 05:09:15 status unpacked libluajit-5.1-common:all 2.1.0~beta3+dfsg-5.3
+2022-09-27 05:09:15 status half-configured libluajit-5.1-common:all 2.1.0~beta3+dfsg-5.3
+2022-09-27 05:09:15 status installed libluajit-5.1-common:all 2.1.0~beta3+dfsg-5.3
+2022-09-27 05:09:15 configure xclip:amd64 0.13-2 <none>
+2022-09-27 05:09:15 status unpacked xclip:amd64 0.13-2
+2022-09-27 05:09:15 status half-configured xclip:amd64 0.13-2
+2022-09-27 05:09:15 status installed xclip:amd64 0.13-2
+2022-09-27 05:09:15 configure libtermkey1:amd64 0.22-1 <none>
+2022-09-27 05:09:15 status unpacked libtermkey1:amd64 0.22-1
+2022-09-27 05:09:15 status half-configured libtermkey1:amd64 0.22-1
+2022-09-27 05:09:15 status installed libtermkey1:amd64 0.22-1
+2022-09-27 05:09:15 configure xauth:amd64 1:1.1-1 <none>
+2022-09-27 05:09:15 status unpacked xauth:amd64 1:1.1-1
+2022-09-27 05:09:16 status half-configured xauth:amd64 1:1.1-1
+2022-09-27 05:09:16 status installed xauth:amd64 1:1.1-1
+2022-09-27 05:09:16 configure python3-msgpack:amd64 1.0.0-6+b1 <none>
+2022-09-27 05:09:16 status unpacked python3-msgpack:amd64 1.0.0-6+b1
+2022-09-27 05:09:16 status half-configured python3-msgpack:amd64 1.0.0-6+b1
+2022-09-27 05:09:16 status installed python3-msgpack:amd64 1.0.0-6+b1
+2022-09-27 05:09:16 configure libluajit-5.1-2:amd64 2.1.0~beta3+dfsg-5.3 <none>
+2022-09-27 05:09:16 status unpacked libluajit-5.1-2:amd64 2.1.0~beta3+dfsg-5.3
+2022-09-27 05:09:16 status half-configured libluajit-5.1-2:amd64 2.1.0~beta3+dfsg-5.3
+2022-09-27 05:09:16 status installed libluajit-5.1-2:amd64 2.1.0~beta3+dfsg-5.3
+2022-09-27 05:09:16 configure python3-pynvim:all 0.4.2-1 <none>
+2022-09-27 05:09:16 status unpacked python3-pynvim:all 0.4.2-1
+2022-09-27 05:09:16 status half-configured python3-pynvim:all 0.4.2-1
+2022-09-27 05:09:16 status installed python3-pynvim:all 0.4.2-1
+2022-09-27 05:09:16 configure python3-neovim:all 0.4.2-1 <none>
+2022-09-27 05:09:16 status unpacked python3-neovim:all 0.4.2-1
+2022-09-27 05:09:16 status half-configured python3-neovim:all 0.4.2-1
+2022-09-27 05:09:16 status installed python3-neovim:all 0.4.2-1
+2022-09-27 05:09:16 configure neovim:amd64 0.4.4-1 <none>
+2022-09-27 05:09:16 status unpacked neovim:amd64 0.4.4-1
+2022-09-27 05:09:16 status half-configured neovim:amd64 0.4.4-1
+2022-09-27 05:09:16 status installed neovim:amd64 0.4.4-1
+2022-09-27 05:09:16 trigproc libc-bin:amd64 2.31-13+deb11u4 <none>
+2022-09-27 05:09:16 status half-configured libc-bin:amd64 2.31-13+deb11u4

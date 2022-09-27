@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/bin
+/usr/bin/nvim
+/usr/libexec
+/usr/libexec/neovim
+/usr/libexec/neovim/ex
+/usr/libexec/neovim/rview
+/usr/libexec/neovim/rvim
+/usr/libexec/neovim/view
+/usr/libexec/neovim/vimdiff
+/usr/share
+/usr/share/doc
+/usr/share/doc/neovim
+/usr/share/doc/neovim/changelog.Debian.gz
+/usr/share/doc/neovim/copyright

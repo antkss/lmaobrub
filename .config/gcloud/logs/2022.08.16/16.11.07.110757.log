@@ -1,0 +1,30 @@
+2022-08-16 16:11:07,112 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud_shell']
+2022-08-16 16:11:07,126 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud-shell', 'ssh']
+2022-08-16 16:11:07,144 DEBUG    root            Running [gcloud.cloud-shell.ssh] with arguments: [--authorize-session: "True"]
+2022-08-16 16:11:07,153 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2022-08-16 16:11:07,155 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-08-16 16:11:07,353 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-08-16 16:11:07,377 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-16 16:11:07,949 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-16 16:11:07,953 INFO     ___FILE_ONLY___ Starting your Cloud Shell machine...
+
+2022-08-16 16:11:07,956 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-16 16:11:10,309 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:start?alt=json HTTP/1.1" 200 None
+2022-08-16 16:11:10,314 INFO     ___FILE_ONLY___ Waiting for your Cloud Shell machine to start...
+2022-08-16 16:11:11,321 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-16 16:11:11,711 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-cf7e1889-1e55-4607-9d29-c9706734bfcf?alt=json HTTP/1.1" 200 None
+2022-08-16 16:11:12,491 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-16 16:11:12,835 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-cf7e1889-1e55-4607-9d29-c9706734bfcf?alt=json HTTP/1.1" 200 None
+2022-08-16 16:11:14,293 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-16 16:11:14,612 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-cf7e1889-1e55-4607-9d29-c9706734bfcf?alt=json HTTP/1.1" 200 None
+2022-08-16 16:11:16,119 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-16 16:11:16,560 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-cf7e1889-1e55-4607-9d29-c9706734bfcf?alt=json HTTP/1.1" 200 None
+2022-08-16 16:11:18,424 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-16 16:11:18,829 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-cf7e1889-1e55-4607-9d29-c9706734bfcf?alt=json HTTP/1.1" 200 None
+2022-08-16 16:11:18,942 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-16 16:11:19,469 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-16 16:11:19,491 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-16 16:11:20,832 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:authorize?alt=json HTTP/1.1" 200 None
+2022-08-16 16:11:20,835 DEBUG    root            Running command [/usr/bin/ssh -t -p 6000 -i /home/as/.ssh/google_compute_engine -o StrictHostKeyChecking=no lmaobrub515@34.81.58.27 -- bash -l].
+2022-08-16 16:11:20,835 DEBUG    root            Executing command: ['/usr/bin/ssh', '-t', '-p', '6000', '-i', '/home/as/.ssh/google_compute_engine', '-o', 'StrictHostKeyChecking=no', 'lmaobrub515@34.81.58.27', '--', 'bash -l']
+2022-08-16 16:17:10,091 INFO     root            Display format: "default"

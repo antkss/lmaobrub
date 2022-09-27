@@ -1,0 +1,18 @@
+#!/bin/bash
+if test -z "$1" 
+then
+printf "You need to insert the download link !!  "
+      printf "usage: lmao <link>"
+else
+echo "working please wait...";
+aria2c $1 -d /app/downloads/ ;
+if [ -z "$(ls -A /app/downloads/)" ]; then
+python - << EOF
+print("No file Downloaded!! Can't transfer to gdrive, may be you are using a wrong link!!")
+
+EOF
+   
+else
+cac.sh 
+fi 
+fi

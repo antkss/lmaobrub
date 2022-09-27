@@ -1,0 +1,19 @@
+2022-08-11 09:53:54,117 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud_shell']
+2022-08-11 09:53:54,124 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud-shell', 'ssh']
+2022-08-11 09:53:54,127 DEBUG    root            Running [gcloud.cloud-shell.ssh] with arguments: [--authorize-session: "True"]
+2022-08-11 09:53:54,140 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-11 09:53:54,957 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-11 09:53:54,963 INFO     ___FILE_ONLY___ Starting your Cloud Shell machine...
+
+2022-08-11 09:53:54,966 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-11 09:53:57,515 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:start?alt=json HTTP/1.1" 200 None
+2022-08-11 09:53:57,517 INFO     ___FILE_ONLY___ Waiting for your Cloud Shell machine to start...
+2022-08-11 09:53:58,524 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-11 09:53:58,871 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/operations/operation-75f99ebc-4f31-4f73-8f76-c47c3e4881c7?alt=json HTTP/1.1" 200 None
+2022-08-11 09:53:58,927 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-11 09:53:59,751 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "GET /v1/users/me/environments/default?alt=json HTTP/1.1" 200 None
+2022-08-11 09:53:59,761 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudshell.googleapis.com:443
+2022-08-11 09:54:02,922 DEBUG    urllib3.connectionpool https://cloudshell.googleapis.com:443 "POST /v1/users/me/environments/default:authorize?alt=json HTTP/1.1" 200 None
+2022-08-11 09:54:02,927 DEBUG    root            Running command [/usr/bin/ssh -t -p 6000 -i /home/as/.ssh/google_compute_engine -o StrictHostKeyChecking=no lmaobrub515@34.78.228.70 -- bash -l].
+2022-08-11 09:54:02,927 DEBUG    root            Executing command: ['/usr/bin/ssh', '-t', '-p', '6000', '-i', '/home/as/.ssh/google_compute_engine', '-o', 'StrictHostKeyChecking=no', 'lmaobrub515@34.78.228.70', '--', 'bash -l']
+2022-08-11 10:02:33,600 INFO     root            Display format: "default"
